@@ -390,7 +390,6 @@ input {
   height:300px;
   line-height:300px;
 }
-
 .fa-heart{
   margin-left:auto;
   margin-right: auto;
@@ -437,4 +436,14 @@ input {
  	transform: scale(1);
      opacity: 1;
    } 
+}
+@media only screen and (max-width: 720px) {
+	.fa-heart {
+		font-size: 10em;
+	}
+}
+@media only screen and (max-width: 450px) {
+	.fa-heart {
+		font-size: 7em;
+	}
 }
