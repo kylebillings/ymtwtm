@@ -241,7 +241,7 @@ input {
 }
 
 #h i {
-	font-size: 350px;
+	font-size: 250px;
 }
 
 /* GREY SECTION */
@@ -444,6 +444,10 @@ input {
 }
 @media only screen and (max-width: 450px) {
 	.fa-heart {
-		font-size: 7em;
+		font-size: .8em;
 	}
+}
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
 }
